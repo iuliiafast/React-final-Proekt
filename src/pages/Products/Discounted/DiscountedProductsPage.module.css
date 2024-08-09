@@ -1,0 +1,91 @@
+.discontPage {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.priceundsorted {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.productGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(23%, 1fr));
+  gap: 20px;
+}
+
+.productLink {
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
+  border: 1px solid black;
+  position: relative;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+.saleImg {
+  width: 316px;
+  height: 284px;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+.productImage {
+  object-fit: cover;
+  width: 316px;
+  height: 284px;
+}
+
+.productLink:hover {
+  transform: scale(1.05);
+}
+
+.productLink img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.productLink p {
+  font-size: 2rem;
+
+}
+
+.productLink h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  text-align: center;
+}
+
+.discountBadge {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: red;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.productLink {
+  display: flex;
+}
+
+@media (min-width: 768px) {
+  .productsGrid {
+    grid-template-columns: repeat (auto-fit, minmax(200px, 1fr));
+
+  }
+}
+
+@media (min-width: 1024px) {
+  .productsGrid {
+    grid-template-columns: repeat (4, 23%);
+
+  }
+}

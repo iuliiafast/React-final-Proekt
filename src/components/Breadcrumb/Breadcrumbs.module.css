@@ -1,0 +1,30 @@
+.breadcrumbArialabel {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  border: none;
+  margin: 3%;
+}
+
+.breadcrumbOl {
+  text-decoration: none;
+  width: 100%;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style-type: none;
+}
+
+.breadcrumbItem {
+  position: relative;
+}
+
+.breadcrumbArialabel li {
+  display: flex;
+}
+
+.breadcrumbArialabel a {
+  text-decoration: none;
+  border: 1px solid #DDDDDD;
+}

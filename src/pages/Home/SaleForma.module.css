@@ -1,0 +1,43 @@
+.formaSale {
+  width: 516px;
+  height: 296px;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+
+}
+
+.saleForm {
+  width: 39%;
+  display: flex;
+  align-self: flex-end;
+}
+
+.orderForm {
+  gap: 16px;
+  opacity: 0px;
+  height: 296px;
+}
+
+.formGroup {
+  width: 516px;
+  border-radius: var(--radiussmall);
+  opacity: 0px;
+  background-color: linear-gradient(261.47deg, #2451C6 32.63%, #0D50FF 98.96%);
+}
+
+.placeholderCartOrder {
+  width: 484px;
+  background: linear-gradient(261.47deg, #2451C6 32.63%, #0D50FF 98.96%);
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  flex: none;
+  flex-grow: 0;
+  cursor: pointer;
+  padding: 16px;
+  border: 1px solid #FFFFFF;
+  border-radius: 0.4rem;
+  transition: background-color 0.3s, color 0.3s;
+}

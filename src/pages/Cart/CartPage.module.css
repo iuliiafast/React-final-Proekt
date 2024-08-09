@@ -1,0 +1,98 @@
+.cartPage {
+  box-sizing: border-box;
+}
+
+.link {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.cartPage h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 4.4rem;
+  text-align: left;
+}
+
+
+.cartBoxPage {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 16px;
+}
+
+.cartProducts {
+  display: flex;
+  flex-direction: row;
+}
+
+.productImage {
+  max-width: 200px;
+
+}
+
+.priceCard {
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+}
+
+.pCart {
+  display: flex;
+  flex-direction: row;
+}
+
+.priceBox {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartOrdersForm {
+  display: flex;
+  flex-direction: column;
+  background-color: #F1F3F4;
+  width: 40%;
+  overflow: hidden;
+  padding: 2%;
+  gap: 16px;
+}
+
+.cartOrdersForm h3 {}
+
+.cartOrdersForm p {}
+
+.emptyCart {
+  text-align: center;
+  padding: 20px;
+}
+
+.cartList {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+}
+
+.cartItem {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.itemInfo {
+  flex-grow: 1;
+}
+
+.removeButton {
+  color: white;
+}
+
+.cartSummary {
+  margin-top: 20px;
+}

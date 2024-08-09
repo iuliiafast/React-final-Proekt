@@ -1,0 +1,26 @@
+.orderForm {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  width: 100%;
+}
+
+.formGroup input {
+  width: 100%;
+  gap: 10px;
+  border-radius: var(--radiussmall);
+  border: none;
+}
+
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

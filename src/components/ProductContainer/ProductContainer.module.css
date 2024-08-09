@@ -1,0 +1,122 @@
+.productContainer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 32px;
+  width: 1360px;
+}
+
+@media (min-width: 380px) {
+  grid-template-columns: 1fr;
+}
+
+@media (min-width: 728px) {
+  grid-template-columns: 1fr 1fr;
+}
+
+@media (min-width: 1084px) {
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+.productCard {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  border-radius: 12px;
+  border: 1px;
+  opacity: 0px;
+  border: 1px solid #DDDDDD;
+  position: relative;
+  overflow: hidden;
+}
+
+.ProductTop {
+  position: relative;
+  display: block;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.imgCard {
+  width: 100%;
+  height: 284px;
+  object-fit: cover;
+  display: block;
+  position: relative;
+  overflow: hidden;
+  border: 0px 0px 1px 0px;
+  border-bottom: 1px solid #DDDDDD;
+}
+
+.textCard {
+  width: 316px;
+  gap: 16px;
+  padding: 0px 32px 32px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.textCard p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  text-align: center;
+  color: #282828;
+
+}
+
+.textCard h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  background: #282828;
+
+}
+
+.priceBox {
+  width: 252px;
+  height: 44px;
+  gap: 16px;
+  opacity: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+}
+
+.priceBox h3 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 44px;
+  text-align: left;
+  justify-content: flex-start;
+
+}
+
+.priceBox p {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #8B8B8B;
+}
+
+.oldPrice {
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  color: #8B8B8B;
+
+}

@@ -1,0 +1,53 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1%;
+  box-sizing: border-box;
+
+}
+
+.header nav {
+  width: 518px;
+  height: 26px;
+  top: 54px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 32px;
+  justify-content: space-between;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+
+}
+
+.liHeader {
+  background-color: #ffffff;
+  color: #282828;
+  font-family: Montserrat;
+  font-size: 1.25rem;
+  font-weight: 500;
+  line-height: 26px;
+  text-align: left;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+.liHeader a {
+  text-decoration: none;
+  color: #282828;
+}
+
+.ulHeader {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  text-decoration: none;
+  gap: 32px;
+  white-space: nowrap;
+}

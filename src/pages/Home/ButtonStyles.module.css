@@ -1,0 +1,44 @@
+.button {
+  width: 516px;
+  height: 58px;
+  top: 176px;
+  left: 20px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: 0.2rem;
+  opacity: 0px;
+  background-color: #FFFFFF;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.button:hover {
+  width: Fixed (516px)px;
+  height: Hug (58px)px;
+  top: 98px;
+  left: 20px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: var(--radiussmall);
+  opacity: 0px;
+  background-color: #282828;
+
+}
+
+.loading {
+  background-color: grey;
+  color: white;
+  cursor: not-allowed;
+}
+
+.success {
+  width: Fixed (516px)px;
+  height: Hug (58px)px;
+  top: 176px;
+  left: 20px;
+  padding: 16px 32px 16px 32px;
+  gap: 10px;
+  border-radius: var(--radiussmall);
+  opacity: 0px;
+  background-color: #F1F3F4;
+}

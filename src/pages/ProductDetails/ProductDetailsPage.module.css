@@ -1,0 +1,190 @@
+.productDetailsPage {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.productFlex {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: stretch;
+  position: relative;
+  box-sizing: border-box;
+  justify-content: center;
+  gap: 2.5rem;
+}
+
+.imgProduct {
+  display: flex;
+  flex-direction: row;
+  width: 57%;
+}
+
+.galerejaImgCard {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  gap: 16px;
+}
+
+.galer {
+  object-fit: cover;
+  width: 100%;
+  height: 180px;
+  border-radius: 12px;
+}
+
+.productImageContainer {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 70%;
+  object-fit: contain;
+  align-self: center;
+}
+
+.productImage {
+  width: 100%;
+  object-fit: cover;
+}
+
+.descriptionCard {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  position: relative;
+  align-items: stretch;
+  align-self: center;
+  gap: 2rem;
+}
+
+.btnCardBox {
+  height: 10%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.btnCard {
+  width: 19.75rem;
+  height: 3.625rem;
+  padding: 1rem 2rem 1rem 2rem;
+  gap: 0.625rem;
+  border-radius: var(--radiussmall);
+  opacity: 0px;
+
+}
+
+.descriptionCard h2 {
+  font-size: 2.5rem;
+  line-height: normal;
+  display: block;
+  font-weight: 700;
+  line-height: 44px;
+  letter-spacing: 0.03em;
+  text-align: left;
+
+}
+
+.priceCard {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 56%;
+}
+
+.priceCard h2 {
+  font-size: 4rem;
+  font-weight: 700;
+  line-height: 70.4px;
+  text-align: left;
+}
+
+.priceCard p {
+  display: flex;
+  text-decoration: line-through;
+  position: relative;
+  align-self: flex-end;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 52px;
+  text-align: left;
+
+}
+
+.saleBadge {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background-color: #0D50FF;
+  width: 68px;
+  height: 34px;
+  padding: 4px 8px 4px 8px;
+  gap: 10px;
+  border-radius: 0.3rem;
+  opacity: 0px;
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: #FFFFFF;
+
+}
+
+.scrolbox {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+.scrolbox h3 {
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 26px;
+  text-align: left;
+  color: #282828;
+  gap: 16px;
+  display: flex;
+  align-self: flex-start;
+}
+
+.scrolbox p {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20.8px;
+  text-align: left;
+  display: flex;
+  align-self: center;
+}
+
+.btnInfo {
+  border: none;
+  display: flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1rem;
+  text-align: left;
+  background-color: #fff;
+  color: #282828;
+  align-self: flex-end;
+}
+
+.btnCounter {
+  display: block;
+  ;
+
+}
+
+.btnCart {
+  display: block;
+}
